@@ -1,0 +1,33 @@
+# Dataset and derived artifacts (do not upload patient/source images)
+data/
+datasets/
+Chest_XRay_updated/
+Chest_XRay_updated_local/
+outputs/
+results/
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / local configuration
+.env
+*.key
+*.pem

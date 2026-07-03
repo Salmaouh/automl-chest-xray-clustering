@@ -1,0 +1,17 @@
+# Core scientific computing
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+
+# Deep learning and vision
+torch
+torchvision
+timm
+Pillow
+
+# Clustering, optimization, and dimensionality reduction
+umap-learn
+hdbscan
+bayesian-optimization
