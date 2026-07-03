@@ -33,10 +33,11 @@ The pipeline extracts frozen self-supervised DINO features, applies train-set st
 
 ```text
 .
-├── automl_clustering_binary_chest_xray_colab.py   # Main Google Colab implementation
-├── README.md                                      # Project documentation
-├── requirements.txt                               # Python dependencies
-└── .gitignore                                     # Files/folders excluded from version control
+├── automl_clustering_binary_chest_xray_colab.ipynb  # Main Google Colab notebook
+├── automl_clustering_binary_chest_xray_colab.py     # Python source version
+├── README.md                                        # Project documentation
+├── requirements.txt                                 # Python dependencies
+└── .gitignore                                       # Files/folders excluded from version control
 ```
 
 > The repository intentionally does **not** include the chest X-ray dataset, patient data, trained model weights, or large generated outputs.
@@ -187,34 +188,28 @@ The code applies this seed to Python's `random`, NumPy, and PyTorch. Although th
 
 ---
 
-## Important Data and Privacy Notes
-
-- Do **not** upload chest X-ray images, patient metadata, passwords, API keys, private Google Drive links, or institutional credentials to GitHub.
-- Share the dataset only if you have the legal and ethical right to do so.
-- If the source dataset has its own license or access restrictions, provide the official source link and access instructions instead of redistributing its files.
-- Before making the repository public, replace any personal/local path with a generic placeholder such as `YOUR_DATASET_FOLDER`.
-
----
 
 ## Citation
 
-If you use or adapt this code, please cite the associated manuscript once its final bibliographic information is available.
+If you use this code, please cite:
 
 ```bibtex
-@article{REPLACE_WITH_FINAL_CITATION,
-  title   = {REPLACE WITH FINAL ARTICLE TITLE},
-  author  = {REPLACE WITH FINAL AUTHOR LIST},
-  journal = {IEEE Access},
-  year    = {2026},
-  doi     = {REPLACE WITH FINAL DOI}
+@article{ouhsousou2026dataset,
+  title     = {A Dataset-Driven AutoML Framework for Chest X-Ray Image Clustering},
+  author    = {Ouhsousou, Salma and Aksehir, Zinnet Duygu and Kural, Oguz Emre and Ouhsousou, Soumaya and Kilic, Erdal},
+  journal   = {IEEE Access},
+  volume    = {14},
+  year      = {2026},
+  doi       = {10.1109/ACCESS.2026.3705522},
+  publisher = {IEEE}
 }
 ```
 
+Article: https://ieeexplore.ieee.org/document/11571812
+
 ---
 
-## License
 
-Add a license only after confirming the preferred licensing terms with all code contributors and your supervisor. For an openly reusable research-code repository, the MIT License is commonly used, but the final choice should match your project and institutional requirements.
 
 ---
 
@@ -222,5 +217,5 @@ Add a license only after confirming the preferred licensing terms with all code 
 
 **Salma Ouhsousou**  
 Data Science Master’s Student, Ondokuz Mayıs University  
-GitHub: `ADD_YOUR_GITHUB_PROFILE_LINK`  
-ORCID: `ADD_YOUR_ORCID_LINK`
+GitHub: https://github.com/Salmaouh  
+ORCID: https://orcid.org/0009-0008-1208-2257
